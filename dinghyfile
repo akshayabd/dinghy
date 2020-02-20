@@ -27,8 +27,7 @@
           "type": "manualJudgment"
         }
       ],
-      "triggers": [],
-      "updateTs": "1582227563000"
+      "triggers": []
     }
   ]
 }
