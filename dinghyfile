@@ -9,11 +9,11 @@
       "limitConcurrent": true,
       "stages": [
         {
-          "name": "Pause1244",
+          "name": "Pause1245",
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
-          "waitTime": 15
+          "waitTime": 5
         },
         {
           "failPipeline": true,
