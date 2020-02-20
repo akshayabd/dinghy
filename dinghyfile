@@ -9,7 +9,7 @@
       "limitConcurrent": true,
       "stages": [
         {
-          "name": "Pause12345",
+          "name": "Pause1",
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
