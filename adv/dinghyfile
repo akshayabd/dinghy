@@ -8,7 +8,7 @@
       "lastModifiedBy": "admin",
       "limitConcurrent": true,
       "stages": [
-        {{ module "wait.stage.module"  {Name: "waitTime", Value: 5}  }}
+        {{ module "wait.stage.module" }}
       ],
       "triggers": []
     }
