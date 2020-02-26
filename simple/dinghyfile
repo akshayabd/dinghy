@@ -27,7 +27,17 @@
           "type": "manualJudgment"
         }
       ],
-      "triggers": []
+      "triggers": [],
+      "notifications": [
+        {
+          "address": "akshay-test",
+          "level": "pipeline",
+          "type": "slack",
+          "when": [
+            "pipeline.starting"
+          ]
+        }
+      ]
     }
   ]
 }
