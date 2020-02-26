@@ -33,6 +33,11 @@
           "address": "akshay-test",
           "level": "pipeline",
           "type": "slack",
+          "message": {
+            "pipeline.starting": {
+              "text": "Pipeline is starting! ${ parameters.imageTag } and ${ parameters.chartVersion }"
+            }
+          },
           "when": [
             "pipeline.starting"
           ]
