@@ -51,7 +51,7 @@
           "type": "slack",
           "message": {
             "pipeline.starting": {
-              "text": "Pipeline is starting! ${ parameters.imageTag } and ${ parameters.chartVersion }"
+              "text": "Image Tag: ${ parameters.imageTag } Chart Version: ${ parameters.chartVersion }"
             }
           },
           "when": [
