@@ -1,7 +1,7 @@
 application: spin
 pipelines:
 - application: spin
-  name: yaml123
+  name: yaml1234
   keepWaitingPipelines: false
   lastModifiedBy: admin
   limitConcurrent: true
@@ -21,7 +21,7 @@ pipelines:
     refId: '1'
     requisiteStageRefIds: []
     type: wait
-    waitTime: 6
+    waitTime: 4
   - failPipeline: true
     judgmentInputs: []
     name: Manual Judgment
