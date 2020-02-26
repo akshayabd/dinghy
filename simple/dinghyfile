@@ -7,6 +7,22 @@
       "keepWaitingPipelines": false,
       "lastModifiedBy": "admin",
       "limitConcurrent": true,
+      "parameterConfig": [
+        {
+          "default": "tag1",
+          "hasOptions": false,
+          "name": "imageTag",
+          "pinned": false,
+          "required": true
+        },
+        {
+          "default": "version1",
+          "hasOptions": false,
+          "name": "chartVersion",
+          "pinned": false,
+          "required": true
+        }
+      ],
       "stages": [
         {
           "name": "Pause12456",
