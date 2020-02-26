@@ -1,7 +1,7 @@
 application: spin
 pipelines:
 - application: spin
-  name: pipeline123456
+  name: yaml123
   keepWaitingPipelines: false
   lastModifiedBy: admin
   limitConcurrent: true
