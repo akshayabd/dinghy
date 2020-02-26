@@ -37,8 +37,6 @@ pipelines:
     type: slack
     message:
       pipeline.starting:
-        text: |-
-          Image Tag: ${ parameters.imageTag }
-          Chart Version: ${ parameters.chartVersion }
+        text: "Image Tag: ${ parameters.imageTag }\nChart Version: ${ parameters.chartVersion }"
     when:
     - pipeline.starting
