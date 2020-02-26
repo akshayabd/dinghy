@@ -1,4 +1,3 @@
----
 application: spin
 pipelines:
 - application: spin
