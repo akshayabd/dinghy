@@ -1,9 +1,8 @@
 application: spin
 pipelines:
 - application: spin
-  name: yaml12345
+  name: yaml123456
   keepWaitingPipelines: false
-  lastModifiedBy: admin
   limitConcurrent: true
   parameterConfig:
   - default: tag1
@@ -17,11 +16,11 @@ pipelines:
     pinned: false
     required: true
   stages:
-  - name: Pause12456
+  - name: Pause
     refId: '1'
     requisiteStageRefIds: []
     type: wait
-    waitTime: 9
+    waitTime: 2
   - failPipeline: true
     judgmentInputs: []
     name: Manual Judgment
@@ -44,3 +43,5 @@ pipelines:
         text: "Image Tag: ${ parameters.imageTag }\nChart Version: ${ parameters.chartVersion }"
     when:
     - pipeline.starting
+    - pipeline.failed
+    - pipeline.complete
