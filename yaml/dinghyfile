@@ -45,4 +45,4 @@ pipelines:
     - pipeline.starting
     - pipeline.failed
     - pipeline.complete
-    abc: ---
+    -
