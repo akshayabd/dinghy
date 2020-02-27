@@ -21,7 +21,7 @@ pipelines:
     refId: '1'
     requisiteStageRefIds: []
     type: wait
-    waitTime: 15
+    waitTime: 10
   - failPipeline: true
     judgmentInputs: []
     name: Manual Judgment
