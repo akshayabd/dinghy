@@ -36,7 +36,7 @@ pipelines:
     type: slack
     message:
       pipeline.starting:
-        text: "Image Tag: ${ parameters.imageTag }\nChart Version: ${ parameters.chartVersion }"
+        text: "Image Tag: ${ parameters.imageTag }\nChart Version: ${ parameters.chartVersion }
       pipeline.complete:
         text: "Image Tag: ${ parameters.imageTag }\nChart Version: ${ parameters.chartVersion }"
       pipeline.failed:
@@ -45,4 +45,3 @@ pipelines:
     - pipeline.starting
     - pipeline.failed
     - pipeline.complete
-    abc: -
