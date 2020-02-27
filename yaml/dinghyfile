@@ -38,9 +38,9 @@ pipelines:
       pipeline.starting:
         text: "Image Tag: ${ parameters.imageTag }\nChart Version: ${ parameters.chartVersion }"
       pipeline.complete:
-        text: "Image Tag: ${ parameters.imageTag }\nChart Version: ${ parameters.chartVersion }
-      pipeline.failed:
         text: "Image Tag: ${ parameters.imageTag }\nChart Version: ${ parameters.chartVersion }"
+      pipeline.failed:
+        text: "Image Tag: ${ parameters.imageTag }\nChart Version: ${ parameters.chartVersion }
     when:
     - pipeline.starting
     - pipeline.failed
