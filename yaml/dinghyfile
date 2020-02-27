@@ -20,7 +20,7 @@ pipelines:
     refId: '1'
     requisiteStageRefIds: []
     type: wait
-    waitTime: 11
+    waitTime: 14
   - failPipeline: true
     judgmentInputs: []
     name: Manual Judgment
@@ -45,4 +45,3 @@ pipelines:
     - pipeline.starting
     - pipeline.failed
     - pipeline.complete
-    -
