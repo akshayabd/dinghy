@@ -25,7 +25,7 @@
       ],
       "stages": [
         {
-          "name": "Pause12456",
+          "name": "Pause1",
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
