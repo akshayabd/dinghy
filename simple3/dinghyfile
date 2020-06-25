@@ -3,7 +3,7 @@
   "pipelines": [
     {
       "application": "spin",
-      "name": "pipeline12",
+      "name": "pipeline13",
       "stages": [
         {
           "name": "Wait12",
