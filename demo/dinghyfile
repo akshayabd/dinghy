@@ -23,7 +23,7 @@
       "name": "pipeline1",
       "stages": [
         {
-          "name": "Waiting still",
+          "name": "Waiting",
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
