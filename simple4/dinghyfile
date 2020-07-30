@@ -6,11 +6,11 @@
       "name": "pipeline154",
       "stages": [
         {
-          "name": "Wait12",
+          "name": "Wait125",
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
-          "waitTime": 5
+          "waitTime": 6
         },
         {
           "failPipeline": true,
