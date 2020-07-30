@@ -15,7 +15,7 @@
       "stages": [
         {{
           module "common_stages.module"
-          "waitTime" "7"
+          "waitTime" "8"
         }}
       ]
     }
