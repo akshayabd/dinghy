@@ -3,20 +3,11 @@
   "globals": {
     "save_app_on_update": true
   },
-  "spec": {
-    "notifications": {
-      "slack": [
-        {
-          "when": [
-            "pipeline.complete",
-            "pipeline.failed",
-            "pipeline.starting"
-          ],
-          "address": "akshay-demo"
-        }
-      ]
-    }
-  },
+  "spec":
+  {{
+    module "notification.module"
+    "slack-channel" "akshay-demo"
+  }},
   "pipelines": [
     {
       "application": "demo",
