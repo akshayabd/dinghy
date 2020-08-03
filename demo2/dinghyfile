@@ -23,11 +23,11 @@
       "name": "pipeline1",
       "stages": [
         {
-          "name": "Waiting",
+          "name": "Waiting123",
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
-          "waitTime": 5
+          "waitTime": 7
         },
         {
           "failPipeline": true,
