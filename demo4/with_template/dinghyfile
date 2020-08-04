@@ -1,0 +1,23 @@
+{
+  "application": "demo4",
+  "globals": {
+    "save_app_on_update": true
+  },
+  "spec":
+  {{
+    module "notification.module"
+    "slack-channel" "akshay-demo"
+  }},
+  "pipelines": [
+    {
+      "application": "demo4",
+      "name": "pipeline_template",
+      "stages": [
+        {{
+          module "common_stages.module"
+          "waitTime" "10"
+        }}
+      ]
+    }
+  ]
+}
