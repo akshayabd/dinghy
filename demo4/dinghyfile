@@ -38,7 +38,7 @@
           "requisiteStageRefIds": [
             "1"
           ],
-          "type": "manualJudgment5"
+          "type": "manualJudgment"
         }
       ]
     }
