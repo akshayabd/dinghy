@@ -1,0 +1,46 @@
+{
+  "application": "demo8",
+  "globals": {
+    "save_app_on_update": true
+  },
+  "spec": {
+    "notifications": {
+      "slack": [
+        {
+          "when": [
+            "pipeline.complete",
+            "pipeline.failed",
+            "pipeline.starting"
+          ],
+          "address": "akshay-demo"
+        }
+      ]
+    }
+  },
+  "pipelines": [
+    {
+      "application": "demo8",
+      "name": "pipeline1",
+      "stages": [
+        {
+          "name": "Waiting",
+          "refId": "1",
+          "requisiteStageRefIds": [],
+          "type": "wait",
+          "waitTime": 5
+        },
+        {
+          "failPipeline": true,
+          "judgmentInputs": [],
+          "name": "Manual Judgment",
+          "notifications": [],
+          "refId": "2",
+          "requisiteStageRefIds": [
+            "1"
+          ],
+          "type": "manualJudgment"
+        }
+      ]
+    }
+  ]
+}
