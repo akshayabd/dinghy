@@ -36,7 +36,7 @@
           "notifications": [],
           "refId": "2",
           "requisiteStageRefIds": [
-            "3"
+            "1"
           ],
           "type": "manualJudgment"
         }
