@@ -27,7 +27,7 @@
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
-          "waitTime": 5
+          "waitTime": 6
         },
         {
           "failPipeline": true,
@@ -36,7 +36,7 @@
           "notifications": [],
           "refId": "2",
           "requisiteStageRefIds": [
-            "3"
+            "1"
           ],
           "type": "manualJudgment"
         }
